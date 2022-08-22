@@ -8,7 +8,7 @@ using namespace std;
 
 const char server[] = "91.197.0.245";
 const char user[] = "root";
-const char password[] = "Orsi4ek148";
+const char password[] = "12345";
 const char database[] = "TextAIdb";
 const char sqlQuery[] = "SELECT id, content FROM EDocs WHERE type = 'dissertation' or type = 'scientific article'";
 
