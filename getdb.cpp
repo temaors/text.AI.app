@@ -10,7 +10,7 @@ const char server[] = "myownserver";
 const char user[] = "vps_myownserver";
 const char password[] = "yr1PL61BNTz74Gae3h";
 const char database[] = "TextAI";
-const char sqlQuery[] = "";
+const char sqlQuery[] = "SELECT id, content FROM EDocs WHERE type = 'dissertation' or type = 'scientific article'";
 
 string getDb()
 {
