@@ -6,9 +6,9 @@
 
 using namespace std;
 
-const char server[] = "myownserver";
-const char user[] = "vps_myownserver";
-const char password[] = "yr1PL61BNTz74Gae3h";
+const char server[] = "91.197.0.245";
+const char user[] = "root";
+const char password[] = "Orsi4ek148";
 const char database[] = "TextAI";
 const char sqlQuery[] = "SELECT id, content FROM EDocs WHERE type = 'dissertation' or type = 'scientific article'";
 
