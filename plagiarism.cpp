@@ -7,11 +7,6 @@
 
 using namespace std;
 
-// Define constants here
-// ...
-
-// Put function declaration here
-// ...
 double antiPlagiarism(string text, string fragment);
 int nextWordIndex(string text, int index);
 bool isSeparator(char symbol);
@@ -26,8 +21,6 @@ string deleteWord(string text, int startIndex, int endIndex);
 int strLen(string str);
 string removeDuplicateWords(string text);
 string removeSmallWords(string text);
-// Put function definition here
-// ...
 
 string formatText(string text) {
 	text = deleteGarbage(text);
@@ -184,7 +177,7 @@ double antiPlagiarism(string text, string fragment) {
 	if (allSelections < 3) {
 		return 0.0;
 	}
-	persent = 100 - (matchSelections / allSelections) * 100;
+	persent = (matchSelections / allSelections) * 100;
 	persent = round(persent * 100) / 100;
 	return persent;
 }
